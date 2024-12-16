@@ -1,0 +1,68 @@
+.header,
+.footer,
+.main {
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.main {
+  min-height: fit-content;
+}
+
+nav.menu {
+  width: 100%;
+}
+
+nav.menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  max-width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav.menu li {
+  list-style: none;
+  margin-right: 5px;
+}
+
+.footer {
+  height: fit-content;
+  background-color: black;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.footer-container span {
+  text-align: right;
+}
+
+.footer-container {
+  display: grid;
+  max-width: 1000px;
+  width: 100%;
+}
+
+section {
+  width: 100%;
+}
+
+section:not(.bg-asset-container) {
+  padding: 20px;
+}
+
+iframe {
+  width: 80%;
+  height: auto;
+  min-height: 500px;
+  display: block;
+}
